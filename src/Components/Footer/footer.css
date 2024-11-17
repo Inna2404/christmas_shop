@@ -1,0 +1,78 @@
+.footer {
+  display: grid;
+  padding: 0 60px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 60px;
+}
+
+.footer_block {
+  padding: 20px 0;
+  text-align: center;
+  border-radius: 20px;
+  background-color: #ecf3f8;
+  cursor: pointer;
+}
+
+.footer_block:hover {
+  color: #ff4646;
+}
+
+.footer_block:visited {
+  background-color: #06a44f1a;
+}
+.footer_contacts {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+.footer_text {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.networks {
+  margin: 20px 0;
+  text-align: center;
+}
+.networks_img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  transition:
+    color 0.3s ease,
+    filter 0.3s ease;
+}
+.networks_img:hover {
+  /* color: #ff4646; */
+  filter: brightness(0) saturate(100%) invert(39%) sepia(100%) saturate(900%)
+    hue-rotate(325deg) brightness(90%);
+}
+.networks_text {
+  text-align: center;
+}
+.networks_text p {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 15px 0;
+}
+.networks_text h4 {
+  font-family: "Allura";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 20px;
+  letter-spacing: 5px;
+  cursor: pointer;
+  margin: 15px 0;
+}
+.networks_text h4:hover {
+  color: #ff4646;
+}

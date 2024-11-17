@@ -1,0 +1,48 @@
+.header_navigation {
+  padding: 20px 40px;
+}
+.header_navigation__list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.header_navigation__home a div {
+  background: url("../../../img/snowflake.svg") no-repeat;
+  width: 24px;
+  height: 24px;
+  padding-left: 10px;
+}
+.header_navigation__item a:hover {
+  color: #ff4646;
+  background-color: #ff46461a;
+  border-radius: 20px;
+  padding: 10px 15px;
+  margin: 0 auto;
+}
+
+.header_navigation__home a {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #181c29;
+}
+.header_navigation__home {
+  margin-right: auto;
+}
+.header_navigation__item {
+  padding: 0 20px;
+}
+
+.header_navigation__item a {
+  text-decoration: none;
+  color: #000;
+}

@@ -1,0 +1,41 @@
+.main {
+  background: url("../../../img/home_ball_img.png") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 524px;
+}
+.main_wrap {
+  justify-items: center;
+  color: #fff;
+  padding-top: 20px;
+}
+.main_wrap p {
+  font-size: 24px;
+  font-weight: 400;
+  font-family: "Allura";
+  letter-spacing: 2px;
+  margin: 10px 0;
+}
+.main_wrap h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  font-family: "Montserrat";
+  letter-spacing: 10px;
+}
+
+.main_wrap button {
+  font-family: "Montserrat";
+  background-color: #181c29;
+  border-radius: 20px;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  padding: 20px 32px;
+  font-size: 16px;
+}

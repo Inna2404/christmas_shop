@@ -1,0 +1,135 @@
+.gift_bock_text {
+  color: #fff;
+  padding: 40px 0;
+}
+.gift_bock_text p {
+  font-family: "Allura";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 3px;
+  letter-spacing: 2px;
+}
+.gift_bock_text h2 {
+  padding-top: 15px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 5px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.gift_wrap {
+  text-align: center;
+}
+.gift_block_wrap {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  padding: 0 60px;
+}
+.gift_bock {
+  background-color: #ecf3f8;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.gift_bock:hover {
+}
+
+.gift_bock img {
+  width: 100%;
+}
+.gift_bock_title {
+  border-radius: 20px;
+  background-color: #fff;
+  padding: 20px 0 5px 20px;
+  height: 112px;
+  text-transform: uppercase;
+  text-align: start;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.gift_bock_title p {
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #4361ff;
+}
+.gift_bock_title .p_green {
+  color: #06a44f;
+}
+
+.gift_bock_title .p_purple {
+  color: #ff43f7;
+}
+
+.gift_bock_title h3 {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2px;
+}
+
+.gifts_link_section {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2px;
+  text-align: center;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.gifts_link_block {
+  padding: 0 0 60px 0;
+  border-radius: 20px;
+  background: url("../../../img/bgr_gifts_link.png") no-repeat;
+  background-size: contain;
+  background-color: #ff4646;
+  padding-top: 60px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+}
+
+.gifts_link_block h2 {
+  color: #fff;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+.gifts_link_block h2:hover {
+  color: #ff4646;
+}
+.gifts_link_list {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.gifts_link_list li {
+  line-height: 12px;
+  letter-spacing: 3px;
+  font-size: 12px;
+  padding: 15px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.gifts_link_list li:active {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+}
+
+#for_work {
+  color: #4361ff;
+}
+#for_harmony {
+  color: #ff43f7;
+}
+#for_health {
+  color: #06a44f;
+}

@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.container {
+  box-sizing: border-box;
+
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 2px;
+}
+.wrapper_bgr {
+  background: url("./img/home_img.png");
+  background-color: #ff4646;
+  border-radius: 20px;
+}
