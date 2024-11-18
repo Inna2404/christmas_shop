@@ -27,7 +27,7 @@ document.getElementById("footer").innerHTML = `
                 alt="telegram_img"
               />
               <img
-                src="../../../img/facebook_1.png"
+                src="../../../img/facebook.png"
                 class="networks_img"
                 alt="facebook_img"
               />

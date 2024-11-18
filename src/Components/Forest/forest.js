@@ -29,7 +29,6 @@ document.getElementById("forest").innerHTML = `
             <h4>12</h4>
             <p>seconds</p>
             </div>
-
             </div>
           </div>
         </section>
