@@ -36,6 +36,7 @@
 }
 
 .gift_bock:hover {
+  color: #ff4646;
 }
 
 .gift_bock img {
@@ -44,7 +45,7 @@
 .gift_bock_title {
   border-radius: 20px;
   background-color: #fff;
-  padding: 20px 0 5px 20px;
+  padding: 10px 0 5px 20px;
   height: 112px;
   text-transform: uppercase;
   text-align: start;
@@ -55,14 +56,6 @@
 .gift_bock_title p {
   font-size: 12px;
   letter-spacing: 3px;
-  color: #4361ff;
-}
-.gift_bock_title .p_green {
-  color: #06a44f;
-}
-
-.gift_bock_title .p_purple {
-  color: #ff43f7;
 }
 
 .gift_bock_title h3 {
@@ -102,9 +95,6 @@
   margin: 0;
 }
 
-.gift_bock_title h3:hover {
-  color: #ff4646;
-}
 .gifts_link_list {
   color: #fff;
   display: flex;

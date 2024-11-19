@@ -38,4 +38,10 @@
   text-transform: uppercase;
   padding: 20px 32px;
   font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.main_wrap button:hover {
+  background-color: #fff;
+  color: #181c29;
 }

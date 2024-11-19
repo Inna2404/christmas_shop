@@ -12,15 +12,17 @@
   border-radius: 20px;
   background-color: #ecf3f8;
   cursor: pointer;
+  color: #181c29;
+  text-decoration: none;
 }
 
 .footer_block:hover {
   color: #ff4646;
 }
 
-.footer_block:visited {
+/* .footer_block:visited {
   background-color: #06a44f1a;
-}
+} */
 .footer_contacts {
   font-family: "Montserrat";
   font-weight: 600;
@@ -41,10 +43,19 @@
   margin: 20px 0;
   text-align: center;
 }
-.networks_img {
-  width: 24px;
-  height: 24px;
+
+.networks_imgs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.networks_link {
   cursor: pointer;
+  padding: 8px 8px 4px 8px;
+}
+.networks_img {
+  stroke: #181c29;
 }
 
 .networks_img:hover {
@@ -62,7 +73,7 @@
   line-height: 20px;
   margin: 15px 0;
 }
-.networks_text h4 {
+.networks_text h4 a {
   font-family: "Allura";
   font-weight: 400;
   font-size: 24px;
@@ -70,7 +81,9 @@
   letter-spacing: 5px;
   cursor: pointer;
   margin: 15px 0;
+  color: #181c29;
+  text-decoration: none;
 }
-.networks_text h4:hover {
+.networks_text h4 a:hover {
   color: #ff4646;
 }

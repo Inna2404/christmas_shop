@@ -1,36 +1,36 @@
 document.getElementById("slider").innerHTML = `
- <section class="slider_section">
-          <div class="slider_block_title">
-            <p>Become Happier!</p>
-            <h2>in the new 2025</h2>
-          </div>
-          <div class="slider">
-            <ul class="slider_list">
-              <li class="slider_item">
-                <p>live</p>
-                <img src="../../../img/snowmen.png" alt="snowmen" />
-              </li>
-              <li class="slider_item">
-                <p>create</p>
-                <img src="../../../img/christmas_tree.png" alt="christmas_tree" />
-              </li>
-              <li class="slider_item">
-                <p>love</p>
-                <img src="../../../img/christmas_ball.png" alt="christmas_ball" />
-              </li>
-              <li class="slider_item">
-                <p>dream</p>
-                <img src="../../../img/house.png" alt="house" />
-              </li>
-            </ul>
-            <div class="btns">
-              <button class="btn prev" disabled>&#8594;</button>
-              <button class="btn next">&#8594;</button>
-            </div>
-          </div>
-        </section>
-
-        
+<section class="slider_section">
+  <div class="slider_block_title">
+    <p>Become Happier!</p>
+    <h2>in the new 2025</h2>
+  </div>
+  <div class="slider">
+    <ul class="slider_list">
+      <li class="slider_item">
+        <p>live</p>
+        <img src="../../../img/snowmen.png" alt="snowmen" />
+      </li>
+      <li class="slider_item">
+        <p>create</p>
+        <img src="../../../img/christmas_tree.png" alt="christmas_tree" />
+      </li>
+      <li class="slider_item">
+        <p>love</p>
+        <img src="../../../img/christmas_ball.png" alt="christmas_ball" />
+      </li>
+      <li class="slider_item">
+        <p>dream</p>
+        <img src="../../../img/house.png" alt="house" />
+      </li>
+    </ul>
+    <div class="btns">
+      <button class="btn prev" disabled>
+        &#8594;
+      </button>
+      <button class="btn next">&#8594;</button>
+    </div>
+  </div>
+</section>
 `;
 let currentIndex = 0;
 
