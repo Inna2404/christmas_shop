@@ -17,7 +17,7 @@ document.getElementById("footer").innerHTML = `
     </a>
 
     <a href="https://mail.google.com" target="_bank" class="footer_block">
-      <img src="img/snake.svg" />
+      <img src="./img/snake.svg" />
       <p class="footer_contacts">gifts@magic.com</p>
       <p class="footer_text">write us</p>
     </a>
