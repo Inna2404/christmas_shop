@@ -3,7 +3,7 @@ document.getElementById("header").innerHTML = `
   <nav class="header_navigation">
     <ul class="header_navigation__list">
       <li class="header_navigation__home">
-        <a href="/index.html">
+        <a href="./index.html">
           <div></div>
           the gifts
         </a>
