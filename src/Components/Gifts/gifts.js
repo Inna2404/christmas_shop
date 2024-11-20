@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
             </a>
 
             <a class="gift_bock">
-              <img src="../../../img/gift_ball_4.png" alt="gift_ball_harmony" />
+              <img src="img/gift_ball_4.png" alt="gift_ball_harmony" />
               <div class="gift_bock_title">
                 <p id="for_harmony">For harmony</p>
                 <h3>Spontaneous Coding Philosopher</h3>
