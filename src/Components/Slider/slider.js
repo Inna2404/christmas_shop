@@ -8,19 +8,19 @@ document.getElementById("slider").innerHTML = `
     <ul class="slider_list">
       <li class="slider_item">
         <p>live</p>
-        <img src="../../../img/snowmen.png" alt="snowmen" />
+        <img src="img/snowmen.png" alt="snowmen" />
       </li>
       <li class="slider_item">
         <p>create</p>
-        <img src="../../../img/christmas_tree.png" alt="christmas_tree" />
+        <img src="img/christmas_tree.png" alt="christmas_tree" />
       </li>
       <li class="slider_item">
         <p>love</p>
-        <img src="../../../img/christmas_ball.png" alt="christmas_ball" />
+        <img src="img/christmas_ball.png" alt="christmas_ball" />
       </li>
       <li class="slider_item">
         <p>dream</p>
-        <img src="../../../img/house.png" alt="house" />
+        <img src="img/house.png" alt="house" />
       </li>
     </ul>
     <div class="btns">
