@@ -2,7 +2,7 @@ document.getElementById("footer").innerHTML = `
 <footer class="footer_section">
   <div class="footer">
     <a href="tel:+375291112233" target="_bank" class="footer_block">
-      <img src="img/santa-claus.svg" />
+      <img src="/img/santa-claus.svg" />
       <p class="footer_contacts">+375 (29) 111-22-33</p>
       <p class="footer_text">Call Us</p>
     </a>
@@ -11,13 +11,13 @@ document.getElementById("footer").innerHTML = `
       target="_bank"
       class="footer_block"
     >
-      <img src="img/christmas-tree.svg" />
+      <img src="/img/christmas-tree.svg" />
       <p class="footer_contacts">Magic forest</p>
       <p class="footer_text">meet us</p>
     </a>
 
     <a href="https://mail.google.com" target="_bank" class="footer_block">
-      <img src="./img/snake.svg" />
+      <img src="/img/snake.svg" />
       <p class="footer_contacts">gifts@magic.com</p>
       <p class="footer_text">write us</p>
     </a>
