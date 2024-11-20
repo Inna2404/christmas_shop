@@ -1,4 +1,5 @@
-document.getElementById("header").innerHTML = `
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("header").innerHTML = `
 <header>
   <nav class="header_navigation">
     <ul class="header_navigation__list">
@@ -24,3 +25,4 @@ document.getElementById("header").innerHTML = `
   </nav>
 </header>
   `;
+});
