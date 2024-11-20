@@ -1,5 +1,5 @@
 document.getElementById("slider").innerHTML = `
-<section class="slider_section">
+<section id = "slider" class="slider_section">
   <div class="slider_block_title">
     <p>Become Happier!</p>
     <h2>in the new 2025</h2>

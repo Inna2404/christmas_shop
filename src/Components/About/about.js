@@ -1,5 +1,5 @@
 document.getElementById("about").innerHTML = `
-<section class="about">
+<section  id="about" class="about">
 <div class="about_wrap">
 <div class="about_wrap_block">
 <h5>About</h5>

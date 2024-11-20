@@ -1,5 +1,5 @@
 document.getElementById("gifts").innerHTML = `
-<section class="gift_wrap">
+<section id="gifts" class="gift_wrap">
           <div class="gift_bock_text">
             <p>Best Gifts</p>
             <h2>especially for you</h2>

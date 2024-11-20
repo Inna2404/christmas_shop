@@ -1,5 +1,5 @@
 document.getElementById("main").innerHTML = `
-<main class="main">
+<main id="main" class="main">
   <div class="main_wrap">
     <p>Merry Christmas</p>
     <h1>
