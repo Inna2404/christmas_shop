@@ -7,7 +7,7 @@ body {
 
   max-width: 1440px;
   width: 100%;
-  padding: 0 2px;
+  margin: 0 auto;
 }
 .wrapper_bgr {
   background: url("./img/home_img.png");

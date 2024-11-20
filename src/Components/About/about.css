@@ -8,7 +8,7 @@
   justify-content: space-between;
 }
 .about_wrap_block {
-  padding: 90px 0 90px 90px;
+  padding: 90px 15px 90px 60px;
   width: 476px;
 }
 .about_wrap_block h5 {
@@ -38,7 +38,7 @@
 .about_img {
   background: url("../../../img/about_section.png") no-repeat;
   border-radius: 20px;
-  width: 528px;
+  width: 635px;
   display: flex;
   background-size: cover;
   background-position: center;

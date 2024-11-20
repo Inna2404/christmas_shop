@@ -24,15 +24,16 @@
 }
 .gift_block_wrap {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(4, calc(25% - 5px)); /* Враховує gap */
+  gap: 15px;
   justify-content: center;
-  padding: 0 60px;
+  padding: 0 80px;
 }
 .gift_bock {
   background-color: #ecf3f8;
   border-radius: 20px;
   cursor: pointer;
+  /* margin: 0 10px; */
 }
 
 .gift_bock:hover {
@@ -45,7 +46,7 @@
 .gift_bock_title {
   border-radius: 20px;
   background-color: #fff;
-  padding: 10px 0 5px 20px;
+  padding: 9px 0 5px 15px;
   height: 112px;
   text-transform: uppercase;
   text-align: start;
@@ -55,13 +56,13 @@
 
 .gift_bock_title p {
   font-size: 12px;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
 }
 
 .gift_bock_title h3 {
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2px;
+  line-height: 17px;
+  letter-spacing: 3px;
 }
 
 .gifts_link_section {
