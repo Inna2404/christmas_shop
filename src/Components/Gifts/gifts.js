@@ -1,4 +1,5 @@
-document.getElementById("gifts").innerHTML = `
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("gifts").innerHTML = `
 <section id="gifts" class="gift_wrap">
           <div class="gift_bock_text">
             <p>Best Gifts</p>
@@ -13,6 +14,7 @@ document.getElementById("gifts").innerHTML = `
                 <h3>Console.log Guru</h3>
               </div>
             </a>
+        
 
             <a class="gift_bock">
               <img src="../../../img/gift_ball_2.png" alt="gift_ball_health" />
@@ -40,3 +42,4 @@ document.getElementById("gifts").innerHTML = `
           </div>
         </section>
 `;
+});
