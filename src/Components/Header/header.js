@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
         </a>
       </li>
       <li class="header_navigation__item">
-        <a href="./src/Components/Gifts/gifts_link.html"> gifts </a>
+        <a href="./gifts_link.html"> gifts </a>
       </li>
       <li class="header_navigation__item">
         <a href="./#about"> about </a>
