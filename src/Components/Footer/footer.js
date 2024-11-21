@@ -11,7 +11,7 @@ document.getElementById("footer").innerHTML = `
       target="_bank"
       class="footer_block"
     >
-      <img src="../../../img/christmas-tree.svg" />
+      <img src="img/christmas-tree.svg" />
       <p class="footer_contacts">Magic forest</p>
       <p class="footer_text">meet us</p>
     </a>
