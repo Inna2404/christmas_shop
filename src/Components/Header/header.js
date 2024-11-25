@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("header").innerHTML = `
+document.getElementById("header").innerHTML = `
 <header>
   <nav class="header_navigation">
     <ul class="header_navigation__list">
@@ -9,20 +8,27 @@ document.addEventListener("DOMContentLoaded", function () {
           the gifts
         </a>
       </li>
-      <li class="header_navigation__item">
-        <a href="./gifts_link.html"> gifts </a>
-      </li>
-      <li class="header_navigation__item">
-        <a href="./#about"> about </a>
-      </li>
-      <li class="header_navigation__item">
-        <a href="./#gifts"> best </a>
-      </li>
-      <li class="header_navigation__item">
-        <a href="index.html#footer">contacts</a>
-      </li>
+      <button class="burger_menu" id="burgerButton">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="burger_menu__overlay" id="burgerOverlay">
+        <ul class="burger_menu__list">
+          <li><a href="./gifts_link.html">gifts</a></li>
+          <li><a href="./#about">about</a></li>
+          <li><a href="./#gifts">best</a></li>
+          <li><a href="index.html#footer">contacts</a></li>
+        </ul>
+      </div>
     </ul>
   </nav>
 </header>
-  `;
+`;
+
+const burgerButton = document.getElementById("burgerButton");
+const burgerOverlay = document.getElementById("burgerOverlay");
+
+burgerButton.addEventListener("click", () => {
+  burgerButton.classList.toggle("open");
+  burgerOverlay.classList.toggle("open");
 });

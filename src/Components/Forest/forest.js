@@ -1,10 +1,12 @@
 document.getElementById("forest").innerHTML = `
 <section  id="forest" class="forest_section">
+<div class = "forest_section_container">
+</div>
   <div class="forest_section_block">
     <h2>
       Ready to start your <br />
       journey to a better <br />
-      version of yourself?
+     <span class="indented">version of yourself?</span>
     </h2>
     <button>Explore Magical Gifts</button>
     <p>The New Year is Coming Soon...</p>
@@ -30,5 +32,6 @@ document.getElementById("forest").innerHTML = `
       </div>
     </div>
   </div>
+  
 </section>
 `;

@@ -1,10 +1,13 @@
 .forest_section {
-  background: url("../../../img/bgr_forest.png") no-repeat;
-  display: flex;
+  background: url("../../../img/bgr_forest.png") no-repeat 35% center;
   background-size: cover;
+  /* background-position: 20px; */
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 668px;
+}
+.forest_section_container {
 }
 .forest_section_block {
   justify-items: center;
@@ -89,4 +92,22 @@
   line-height: 15px;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+@media (max-width: 768px) {
+  .forest_section {
+    background-position: 45% center;
+  }
+}
+@media (max-width: 380px) {
+  .forest_section_block h2 {
+    /* text-align: start; */
+    font-size: 20px;
+    letter-spacing: 5px;
+    padding: 0 9px;
+  }
+  .indented {
+    display: inline-block;
+    margin-left: 70px;
+    text-align: start;
+  }
 }

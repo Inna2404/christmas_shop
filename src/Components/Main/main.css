@@ -10,7 +10,7 @@
 .main_wrap {
   justify-items: center;
   color: #fff;
-  padding-top: 30px;
+  padding-top: 45px;
 }
 .main_wrap p {
   font-size: 24px;
@@ -44,4 +44,19 @@
 .main_wrap button:hover {
   background-color: #fff;
   color: #181c29;
+}
+
+@media (max-width: 768px) {
+  .main_wrap {
+    padding-top: 30px;
+  }
+  .main_wrap h1 {
+    margin: 10px;
+  }
+}
+@media (max-width: 420px) {
+  .main_wrap h1 {
+    font-size: 28px;
+    letter-spacing: 5px;
+  }
 }

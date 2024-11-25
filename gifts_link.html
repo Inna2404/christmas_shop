@@ -45,7 +45,7 @@
           </li>
         </ul>
         <div class="gift_block_wrap">
-          <a class="gift_bock">
+          <a class="gift_bock" onclick="openModal(event,1)">
             <img src="./img/gift_ball_1.png" alt="gift_ball_work" />
             <div class="gift_bock_title">
               <p id="for_work">For work</p>
@@ -53,7 +53,7 @@
             </div>
           </a>
 
-          <a class="gift_bock">
+          <a class="gift_bock" onclick="openModal(event,2)">
             <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <p id="for_health">For health</p>
@@ -61,7 +61,7 @@
             </div>
           </a>
 
-          <a class="gift_bock">
+          <a class="gift_bock" onclick="openModal(event,3)">
             <img src="./img/gift_ball_3.png " alt="gift_ball_work" />
             <div class="gift_bock_title">
               <p id="for_work">For work</p>
@@ -69,7 +69,7 @@
             </div>
           </a>
 
-          <a class="gift_bock">
+          <a class="gift_bock" onclick="openModal(event,4)">
             <img src="./img/gift_ball_3.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <p id="for_work">For work</p>
@@ -77,7 +77,7 @@
             </div>
           </a>
 
-          <a class="gift_bock">
+          <a class="gift_bock" onclick="openModal(event,5)">
             <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <p id="for_health">For health</p>
@@ -85,7 +85,7 @@
             </div>
           </a>
 
-          <a class="gift_bock">
+          <a class="gift_bock" onclick="openModal(event,6)">
             <img src="./img/gift_ball_4.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <p id="for_harmony">For harmony</p>
@@ -93,7 +93,7 @@
             </div>
           </a>
 
-          <a class="gift_bock">
+          <a class="gift_bock" onclick="openModal(event,7)">
             <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <p id="for_health">For health</p>
@@ -101,7 +101,7 @@
             </div>
           </a>
 
-          <a class="gift_bock">
+          <a class="gift_bock" onclick="openModal(event,8)">
             <img src="./img/gift_ball_4.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <p id="for_harmony">For harmony</p>
@@ -109,7 +109,7 @@
             </div>
           </a>
 
-          <a class="gift_bock">
+          <a class="gift_bock" onclick="openModal(event,9)">
             <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <p id="for_health">For health</p>
@@ -117,7 +117,7 @@
             </div>
           </a>
 
-          <a class="gift_bock">
+          <a class="gift_bock" onclick="openModal(event,10)">
             <img src="./img/gift_ball_1.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <p id="for_work">For work</p>
@@ -125,14 +125,14 @@
             </div>
           </a>
 
-          <a class="gift_bock">
+          <a class="gift_bock" onclick="openModal(event,11)">
             <img src="./img/gift_ball_4.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <p id="for_harmony">For harmony</p>
               <h3>Joy Charger</h3>
             </div>
           </a>
-          <a class="gift_bock">
+          <a class="gift_bock" onclick="openModal(event,12)">
             <img src="./img/gift_ball_4.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <p id="for_harmony">For harmony</p>
@@ -144,7 +144,30 @@
       <div id="footer"></div>
     </section>
 
+    <div id="giftModal" style="display: none" class="modal" aria-hidden="true">
+      <div class="modal_content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImage" src="" alt="gift_ball_work" />
+        <div class="modal_text_block">
+          <div class="modal_text">
+            <h4 id="modalCategory"></h4>
+            <h3 id="modalTitle" style="color: #181c29"></h3>
+            <p
+              id="modalDescription"
+              style="color: #181c29; font-weight: 400"
+              class="modal_p"
+            ></p>
+          </div>
+          <div class="superpowers_block">
+            <h4>Adds superpowers to:</h4>
+            <div class="superpowers" id="superpowersBlock"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="././src/Components/Header/header.js"></script>
     <script src="././src/Components/Footer/footer.js"></script>
+    <script src="./modal_gifts.js"></script>
   </body>
 </html>
