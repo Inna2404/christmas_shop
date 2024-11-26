@@ -43,8 +43,8 @@
 
 @media (hover: none) and (pointer: coarse) {
   .forest_section_block button:hover {
-    background-color: inherit;
-    color: inherit;
+    color: #fff;
+    background-color: #181c29;
   }
 }
 

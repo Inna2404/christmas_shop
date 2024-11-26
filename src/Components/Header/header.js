@@ -27,8 +27,10 @@ document.getElementById("header").innerHTML = `
 
 const burgerButton = document.getElementById("burgerButton");
 const burgerOverlay = document.getElementById("burgerOverlay");
+const body = document.body;
 
 burgerButton.addEventListener("click", () => {
   burgerButton.classList.toggle("open");
   burgerOverlay.classList.toggle("open");
+  body.classList.remove("no-scroll");
 });

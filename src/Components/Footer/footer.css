@@ -65,6 +65,13 @@
     hue-rotate(325deg) brightness(90%);
   transform: scale(1.05);
 }
+
+@media (hover: none) and (pointer: coarse) {
+  .networks_img:hover {
+    filter: inherit;
+    transform: none;
+  }
+}
 .networks_text {
   text-align: center;
 }
@@ -93,10 +100,9 @@
 
 @media (hover: none) and (pointer: coarse) {
   .footer_block:hover,
-  .networks_img:hover,
   .networks_text h4 a:hover {
     color: inherit;
-    background-color: inherit;
+    background-color: #ecf3f8;
   }
 }
 

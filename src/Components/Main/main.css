@@ -45,11 +45,10 @@
   background-color: #fff;
   color: #181c29;
 }
-
 @media (hover: none) and (pointer: coarse) {
   .main_wrap button:hover {
-    color: inherit;
-    background-color: inherit;
+    color: #fff;
+    background-color: #181c29;
   }
 }
 

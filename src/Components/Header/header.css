@@ -2,13 +2,13 @@
   box-sizing: border-box;
 }
 
-html,
-body {
-  overflow: auto;
+body.no-scroll {
+  position: fixed;
+  width: 100%;
 }
-
 .header_navigation {
   padding: 10px 60px;
+  overflow-x: hidden;
 }
 .header_navigation__list {
   display: flex;
@@ -115,8 +115,8 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: calc(100vh - 1px);
     background: rgba(255, 255, 255, 0.95);
     color: #181c29;
     display: flex;
