@@ -83,12 +83,11 @@
 }
 
 .gifts_link_block {
-  padding: 0 0 60px 0;
+  padding: 60px 0;
   border-radius: 20px;
   background: url("../../../img/bgr_gifts_link.png") no-repeat;
   background-size: contain;
   background-color: #ff4646;
-  padding-top: 60px;
   font-family: "Montserrat";
   text-transform: uppercase;
   font-weight: 600;
@@ -137,6 +136,7 @@
   .gift_block_wrap {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    padding: 0 20px;
   }
   .gifts_link_list {
     margin: 15px 0;
