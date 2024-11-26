@@ -7,8 +7,7 @@
   align-items: center;
   height: 668px;
 }
-.forest_section_container {
-}
+
 .forest_section_block {
   justify-items: center;
   font-family: "Montserrat";
@@ -41,6 +40,14 @@
   background-color: #fff;
   color: #181c29;
 }
+
+@media (hover: none) and (pointer: coarse) {
+  .forest_section_block button:hover {
+    background-color: inherit;
+    color: inherit;
+  }
+}
+
 .forest_section_block p {
   padding-top: 15px;
   font-family: "Allura";

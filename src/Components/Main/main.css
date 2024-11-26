@@ -46,6 +46,13 @@
   color: #181c29;
 }
 
+@media (hover: none) and (pointer: coarse) {
+  .main_wrap button:hover {
+    color: inherit;
+    background-color: inherit;
+  }
+}
+
 @media (max-width: 768px) {
   .main_wrap {
     padding-top: 30px;

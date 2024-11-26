@@ -266,3 +266,13 @@
   line-height: 15px;
   letter-spacing: 1px;
 }
+
+@media (hover: none) and (pointer: coarse) {
+  .footer_block:hover,
+  .networks_img:hover,
+  .close:hover,
+  .close:focus {
+    color: inherit;
+    background-color: inherit;
+  }
+}

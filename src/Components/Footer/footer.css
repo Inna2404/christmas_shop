@@ -91,6 +91,15 @@
   color: #ff4646;
 }
 
+@media (hover: none) and (pointer: coarse) {
+  .footer_block:hover,
+  .networks_img:hover,
+  .networks_text h4 a:hover {
+    color: inherit;
+    background-color: inherit;
+  }
+}
+
 @media (max-width: 768px) {
   .footer {
     display: flex;

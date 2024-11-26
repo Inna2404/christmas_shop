@@ -80,6 +80,14 @@
   transition: #fff 0.3s ease;
 }
 
+@media (hover: none) and (pointer: coarse) {
+  .btn:hover {
+    color: inherit;
+    background-color: inherit;
+    transition: none;
+  }
+}
+
 @media (max-width: 768px) {
   .slider_list {
     padding: 0px;
