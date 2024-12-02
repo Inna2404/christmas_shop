@@ -32,16 +32,20 @@
         </h2>
         <ul class="gifts_link_list">
           <li>
-            <a>All</a>
+            <a id="filter-all" onclick="filterGifts('all')">All</a>
           </li>
           <li>
-            <a>for work</a>
+            <a id="filter-work" onclick="filterGifts('for_work')">for work</a>
           </li>
           <li>
-            <a>for health</a>
+            <a id="filter-health" onclick="filterGifts('for_health')"
+              >for health</a
+            >
           </li>
           <li>
-            <a>for harmony</a>
+            <a id="filter-harmony" onclick="filterGifts('for_harmony')"
+              >for harmony</a
+            >
           </li>
         </ul>
         <div class="gift_block_wrap">
@@ -168,6 +172,7 @@
 
     <script src="././src/Components/Header/header.js"></script>
     <script src="././src/Components/Footer/footer.js"></script>
+    <script src="filterGafts.js"></script>
     <script src="./modal_gifts.js"></script>
   </body>
 </html>

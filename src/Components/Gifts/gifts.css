@@ -1,6 +1,5 @@
 .gift_bock_text {
   color: #fff;
-  padding: 40px 0;
 }
 .gift_bock_text p {
   font-family: "Allura";
@@ -20,6 +19,7 @@
 }
 
 .gift_wrap {
+  padding: 50px 0;
   text-align: center;
 }
 .gift_block_wrap {
@@ -27,7 +27,7 @@
   grid-template-columns: repeat(4, calc(25% - 5px)); /* Враховує gap */
   gap: 15px;
   justify-content: center;
-  padding: 0 80px;
+  padding: 15px 80px 0 80px;
 }
 .gift_bock {
   background-color: #ecf3f8;
@@ -115,10 +115,15 @@
   padding: 15px;
   list-style-type: none;
   cursor: pointer;
+  user-select: none;
 }
 
-.gifts_link_list li:active {
+.gifts_link_list li:hover {
   background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+}
+.gifts_link_list li.active {
+  background-color: rgba(0, 255, 0, 0.3);
   border-radius: 12px;
 }
 

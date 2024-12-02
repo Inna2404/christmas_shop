@@ -1,7 +1,5 @@
 document.getElementById("forest").innerHTML = `
 <section  id="forest" class="forest_section">
-<div class = "forest_section_container">
-</div>
   <div class="forest_section_block">
     <h2>
       Ready to start your <br />

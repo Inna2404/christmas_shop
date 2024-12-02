@@ -34,9 +34,9 @@ const giftData = [
         images: [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -47,7 +47,7 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png"
         ]
       }
     ]
@@ -67,7 +67,7 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png"
         ]
       },
       {
@@ -77,8 +77,8 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -100,7 +100,7 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png"
         ]
       }
     ]
@@ -140,9 +140,9 @@ const giftData = [
         images: [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -153,7 +153,7 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png"
         ]
       }
     ]
@@ -193,9 +193,9 @@ const giftData = [
         images: [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -206,7 +206,7 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png"
         ]
       }
     ]
@@ -226,7 +226,7 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png"
         ]
       },
       {
@@ -236,8 +236,8 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -259,7 +259,7 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png"
         ]
       }
     ]
@@ -279,8 +279,8 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -289,9 +289,9 @@ const giftData = [
         images: [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -333,18 +333,18 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png"
         ]
       },
       {
         name: "Create",
-        power: "300",
+        power: "+300",
         images: [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -366,7 +366,7 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png"
         ]
       }
     ]
@@ -386,8 +386,8 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -396,9 +396,9 @@ const giftData = [
         images: [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -440,7 +440,7 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png"
         ]
       },
       {
@@ -450,8 +450,8 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -473,7 +473,7 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png"
         ]
       }
     ]
@@ -513,9 +513,9 @@ const giftData = [
         images: [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -526,7 +526,7 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png"
         ]
       }
     ]
@@ -546,8 +546,8 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -556,9 +556,9 @@ const giftData = [
         images: [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -600,8 +600,8 @@ const giftData = [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
@@ -610,9 +610,9 @@ const giftData = [
         images: [
           "./img/snowflake.svg",
           "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg",
-          "./img/snowflake.svg"
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
         ]
       },
       {
