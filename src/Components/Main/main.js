@@ -10,5 +10,5 @@ document.getElementById("main").innerHTML = `
     <button>explore magical gifts</button>
     <p>and Happy New Year</p>
   </div>
-</main>;
+</main>
 `;

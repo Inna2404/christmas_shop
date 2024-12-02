@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 524px;
+  height: 505px;
 }
 .main_wrap {
   justify-items: center;
@@ -61,6 +61,9 @@
   }
 }
 @media (max-width: 420px) {
+  .main {
+    height: 572px;
+  }
   .main_wrap h1 {
     font-size: 28px;
     letter-spacing: 5px;

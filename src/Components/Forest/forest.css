@@ -1,11 +1,9 @@
 .forest_section {
   background: url("../../../img/bgr_forest.png") no-repeat 35% center;
   background-size: cover;
-  /* background-position: 20px; */
   display: flex;
   justify-content: center;
   align-items: center;
-  /* height: 668px; */
   padding: 60px 0;
 }
 
@@ -14,7 +12,7 @@
   font-family: "Montserrat";
   font-weight: 600;
   color: #fff;
-  padding: 100px 0;
+  padding: 103px 0;
 }
 .forest_section_block h2 {
   font-size: 24px;

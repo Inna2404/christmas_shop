@@ -43,10 +43,13 @@
   background-size: cover;
   background-position: center;
 }
+
 @media (max-width: 768px) {
   .about {
-    padding: 60px 10px;
+    padding: 50px 10px;
   }
+}
+@media (max-width: 440px) {
   .about_wrap {
     flex-direction: column;
     align-items: center;
@@ -58,8 +61,6 @@
   }
   .about_img {
     width: 100%;
-    height: 450px;
+    height: 492px;
   }
-}
-@media (max-width: 768px) {
 }

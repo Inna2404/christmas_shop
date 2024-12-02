@@ -10,7 +10,7 @@
 }
 
 .footer_block {
-  padding: 20px 0;
+  padding: 15px 0;
   text-align: center;
   border-radius: 20px;
   background-color: #ecf3f8;
@@ -124,5 +124,8 @@
 @media (max-width: 380px) {
   .networks_text h4 a {
     letter-spacing: 2px;
+  }
+  .footer_section {
+    padding: 20px 0;
   }
 }
