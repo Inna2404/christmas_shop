@@ -120,6 +120,9 @@
     padding: 0;
     margin: 5px 0;
   }
+  .footer_section {
+    padding: 20px 0;
+  }
 }
 @media (max-width: 380px) {
   .networks_text h4 a {
