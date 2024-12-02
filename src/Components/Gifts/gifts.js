@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <a class="gift_bock">
               <img src="img/gift_ball_1.png" alt="gift_ball_work" />
               <div class="gift_bock_title">
-                <p id="for_work">For work</p>
+                <h5 class="for_work">For work</h5>
                 <h3>Console.log Guru</h3>
               </div>
             </a>
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <a class="gift_bock">
               <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
               <div class="gift_bock_title">
-                <p id="for_health">For health</p>
+                <h5 class="for_health">For health</h5>
                 <h3>Hydration Bot</h3>
               </div>
             </a>
@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <a class="gift_bock">
               <img src="img/gift_ball_3.png " alt="gift_ball_work" />
               <div class="gift_bock_title">
-                <p id="for_work">For work</p>
+                <h5 class="for_work">For work</h5>
                 <h3>Merge Master</h3>
               </div>
             </a>
@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <a class="gift_bock">
               <img src="img/gift_ball_4.png" alt="gift_ball_harmony" />
               <div class="gift_bock_title">
-                <p id="for_harmony">For harmony</p>
+                <h5 class="for_harmony">For harmony</h5>
                 <h3>Spontaneous Coding Philosopher</h3>
               </div>
             </a>

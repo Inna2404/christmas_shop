@@ -122,13 +122,13 @@
   border-radius: 12px;
 }
 
-#for_work {
+.for_work {
   color: #4361ff;
 }
-#for_harmony {
+.for_harmony {
   color: #ff43f7;
 }
-#for_health {
+.for_health {
   color: #06a44f;
 }
 
@@ -255,7 +255,7 @@
   font-weight: 600;
   letter-spacing: 1px;
   font-size: 16px;
-  /* color: #181c29; */
+  /* color: #181c29;s */
 }
 
 #modalCategory {
