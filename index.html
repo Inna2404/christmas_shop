@@ -1,31 +1,31 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="icon" href="./img/snowflake.svg" type="image/x-icon" >
+    <link rel="icon" href="./img/snowflake.svg" type="image/x-icon" />
 
     <style>
       html {
         scroll-behavior: smooth;
       }
     </style>
-    <link rel="preconnect" href="https://fonts.googleapis.com" >
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
-    >
+    />
 
-    <link rel="stylesheet" href="index.css" >
-    <link rel="stylesheet" href="./src/Components/Header/header.css" >
-    <link rel="stylesheet" href="./src/Components/Main/main.css" >
-    <link rel="stylesheet" href="./src/Components/About/about.css" >
-    <link rel="stylesheet" href="./src/Components/Slider/slider.css" >
-    <link rel="stylesheet" href="./src/Components/Gifts/gifts.css" >
-    <link rel="stylesheet" href="./src/Components/Forest/forest.css" >
-    <link rel="stylesheet" href="./src/Components/Footer/footer.css" >
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./src/Components/Header/header.css" />
+    <link rel="stylesheet" href="./src/Components/Main/main.css" />
+    <link rel="stylesheet" href="./src/Components/About/about.css" />
+    <link rel="stylesheet" href="./src/Components/Slider/slider.css" />
+    <link rel="stylesheet" href="./src/Components/Gifts/gifts.css" />
+    <link rel="stylesheet" href="./src/Components/Forest/forest.css" />
+    <link rel="stylesheet" href="./src/Components/Footer/footer.css" />
   </head>
   <body>
     <div class="container">
@@ -34,12 +34,81 @@
         <div id="main"></div>
         <div id="about"></div>
         <div id="slider"></div>
-        <div id="gifts"></div>
+        <div id="gifts">
+          <section id="gifts" class="gift_wrap">
+            <div class="gift_bock_text">
+              <p>Best Gifts</p>
+              <h2>especially for you</h2>
+            </div>
+
+            <div class="gift_block_wrap">
+              <a class="gift_bock" onclick="openModal(event,1)">
+                <img src="img/gift_ball_1.png" alt="gift_ball_work" />
+                <div class="gift_bock_title">
+                  <h5 class="for_work">For work</h5>
+                  <h3>Console.log Guru</h3>
+                </div>
+              </a>
+
+              <a class="gift_bock" onclick="openModal(event,2)">
+                <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
+                <div class="gift_bock_title">
+                  <h5 class="for_health">For health</h5>
+                  <h3>Hydration Bot</h3>
+                </div>
+              </a>
+
+              <a class="gift_bock" onclick="openModal(event,1)">
+                <img src="img/gift_ball_3.png" alt="gift_ball_work" />
+                <div class="gift_bock_title">
+                  <h5 class="for_work">For work</h5>
+                  <h3>Merge Master</h3>
+                </div>
+              </a>
+
+              <a class="gift_bock" onclick="openModal(event,4)">
+                <img src="img/gift_ball_4.png" alt="gift_ball_harmony" />
+                <div class="gift_bock_title">
+                  <h5 class="for_harmony">For harmony</h5>
+                  <h3>Spontaneous Coding Philosopher</h3>
+                </div>
+              </a>
+            </div>
+          </section>
+        </div>
         <div id="forest"></div>
         <div id="footer"></div>
       </div>
     </div>
 
+    <div id="giftModal" style="display: none" class="modal" aria-hidden="true">
+      <div class="modal_content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img id="modalImage" alt="gift_ball_work" src="" />
+        <div class="modal_text_block">
+          <div class="modal_text">
+            <h4
+              id="modalCategory"
+              aria-label="Category will be displayed here"
+            ></h4>
+            <h3
+              id="modalTitle"
+              style="color: #181c29"
+              aria-label="Title will be displayed here"
+            ></h3>
+            <p
+              id="modalDescription"
+              style="color: #181c29; font-weight: 400"
+              class="modal_p"
+            ></p>
+          </div>
+          <div class="superpowers_block">
+            <h4>Adds superpowers to:</h4>
+            <div class="superpowers" id="superpowersBlock"></div>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="src/Components/Header/header.js"></script>
     <script src="src/Components/Main/main.js"></script>
     <script src="src/Components/About/about.js"></script>
@@ -47,5 +116,6 @@
     <script src="src/Components/Gifts/gifts.js"></script>
     <script src="src/Components/Forest/forest.js"></script>
     <script src="src/Components/Footer/footer.js"></script>
+    <script src="modal_gifts.js"></script>
   </body>
 </html>

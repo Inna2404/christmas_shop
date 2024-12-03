@@ -25,7 +25,7 @@ body {
 }
 
 /* Стилі для модального вікна */
-.modal {
+/* .modal {
   display: none;
   position: fixed;
   top: 0;
@@ -82,9 +82,9 @@ body {
 
 .modal_text div {
   /* border-radius: 20px; */
-  /* background-color: #fff; */
-  /* height: 112px; */
-  text-transform: uppercase;
+/* background-color: #fff; */
+/* height: 112px; */
+/* text-transform: uppercase;
   font-family: "Montserrat";
   font-weight: 600;
-}
+} */
