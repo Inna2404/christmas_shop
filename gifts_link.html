@@ -1,25 +1,25 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gifts</title>
-    <link rel="icon" href="./img/snowflake.svg" type="image/x-icon" >
+    <link rel="icon" href="./img/snowflake.svg" type="image/x-icon" />
 
     <style>
       html {
         scroll-behavior: smooth;
       }
     </style>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
-    >
+    />
 
-    <link rel="stylesheet" href="././src/Components/Gifts/gifts.css" >
-    <link rel="stylesheet" href="././src/Components/Header/header.css" >
-    <link rel="stylesheet" href="././src/Components/Footer/footer.css">
+    <link rel="stylesheet" href="././src/Components/Gifts/gifts.css" />
+    <link rel="stylesheet" href="././src/Components/Header/header.css" />
+    <link rel="stylesheet" href="././src/Components/Footer/footer.css" />
   </head>
 
   <body>
@@ -27,12 +27,14 @@
       <div id="header"></div>
       <div class="gifts_link_block">
         <h2>
-          Achieve health,<br >
-          harmony, and <br >inner strength
+          Achieve health,<br />
+          harmony, and <br />inner strength
         </h2>
         <ul class="gifts_link_list">
           <li>
-            <a id="filter-all" onclick="filterGifts('all')">All</a>
+            <a id="filter-all" class="active" onclick="filterGifts('all')"
+              >All</a
+            >
           </li>
           <li>
             <a id="filter-work" onclick="filterGifts('for_work')">for work</a>
@@ -50,7 +52,7 @@
         </ul>
         <div class="gift_block_wrap">
           <a class="gift_bock" onclick="openModal(event,1)">
-            <img src="./img/gift_ball_1.png" alt="gift_ball_work" >
+            <img src="./img/gift_ball_1.png" alt="gift_ball_work" />
             <div class="gift_bock_title">
               <h5 class="for_work">For work</h5>
               <h3>Console.log Guru</h3>
@@ -58,7 +60,7 @@
           </a>
 
           <a class="gift_bock" onclick="openModal(event,2)">
-            <img src="./img/gift_ball_2.png" alt="gift_ball_health" >
+            <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <h5 class="for_health">For health</h5>
               <h3>Step Master</h3>
@@ -66,7 +68,7 @@
           </a>
 
           <a class="gift_bock" onclick="openModal(event,3)">
-            <img src="./img/gift_ball_3.png " alt="gift_ball_work" >
+            <img src="./img/gift_ball_3.png " alt="gift_ball_work" />
             <div class="gift_bock_title">
               <h5 class="for_work">For work</h5>
               <h3>Bug Magnet</h3>
@@ -74,7 +76,7 @@
           </a>
 
           <a class="gift_bock" onclick="openModal(event,4)">
-            <img src="./img/gift_ball_3.png" alt="gift_ball_health" >
+            <img src="./img/gift_ball_3.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <h5 class="for_work">For work</h5>
               <h3>Shortcut Cheater</h3>
@@ -82,7 +84,7 @@
           </a>
 
           <a class="gift_bock" onclick="openModal(event,5)">
-            <img src="./img/gift_ball_2.png" alt="gift_ball_health" >
+            <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <h5 class="for_health">For health</h5>
               <h3>Posture Levitation</h3>
@@ -90,7 +92,7 @@
           </a>
 
           <a class="gift_bock" onclick="openModal(event,6)">
-            <img src="./img/gift_ball_4.png" alt="gift_ball_health">
+            <img src="./img/gift_ball_4.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <h5 class="for_harmony">For harmony</h5>
               <h3>Bug Acceptance Guru</h3>
@@ -98,7 +100,7 @@
           </a>
 
           <a class="gift_bock" onclick="openModal(event,7)">
-            <img src="./img/gift_ball_2.png" alt="gift_ball_health" >
+            <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <h5 class="for_health">For health</h5>
               <h3>Snack Resister</h3>
@@ -106,7 +108,7 @@
           </a>
 
           <a class="gift_bock" onclick="openModal(event,8)">
-            <img src="./img/gift_ball_4.png" alt="gift_ball_health" >
+            <img src="./img/gift_ball_4.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <h5 class="for_harmony">For harmony</h5>
               <h3>Error Laugher</h3>
@@ -114,7 +116,7 @@
           </a>
 
           <a class="gift_bock" onclick="openModal(event,9)">
-            <img src="./img/gift_ball_2.png" alt="gift_ball_health" >
+            <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <h5 class="for_health">For health</h5>
               <h3>Hydration Bot</h3>
@@ -122,7 +124,7 @@
           </a>
 
           <a class="gift_bock" onclick="openModal(event,10)">
-            <img src="./img/gift_ball_1.png" alt="gift_ball_health" >
+            <img src="./img/gift_ball_1.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <h5 class="for_work">For work</h5>
               <h3>Merge Master</h3>
@@ -130,14 +132,14 @@
           </a>
 
           <a class="gift_bock" onclick="openModal(event,11)">
-            <img src="./img/gift_ball_4.png" alt="gift_ball_health" >
+            <img src="./img/gift_ball_4.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <h5 class="for_harmony">For harmony</h5>
               <h3>Joy Charger</h3>
             </div>
           </a>
           <a class="gift_bock" onclick="openModal(event,12)">
-            <img src="./img/gift_ball_4.png" alt="gift_ball_health" >
+            <img src="./img/gift_ball_4.png" alt="gift_ball_health" />
             <div class="gift_bock_title">
               <h5 class="for_harmony">For harmony</h5>
               <h3>Spontaneous Coding Philosopher</h3>
@@ -151,11 +153,18 @@
     <div id="giftModal" style="display: none" class="modal" aria-hidden="true">
       <div class="modal_content">
         <span class="close" onclick="closeModal()">&times;</span>
-        <img id="modalImage" alt="gift_ball_work" src="" >
+        <img id="modalImage" alt="gift_ball_work" src="" />
         <div class="modal_text_block">
           <div class="modal_text">
-            <h4 id="modalCategory" aria-label="Category will be displayed here"></h4>
-            <h3 id="modalTitle" style="color: #181c29" aria-label="Title will be displayed here"></h3>
+            <h4
+              id="modalCategory"
+              aria-label="Category will be displayed here"
+            ></h4>
+            <h3
+              id="modalTitle"
+              style="color: #181c29"
+              aria-label="Title will be displayed here"
+            ></h3>
             <p
               id="modalDescription"
               style="color: #181c29; font-weight: 400"

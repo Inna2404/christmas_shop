@@ -13,4 +13,15 @@ function filterGifts(category) {
       }
     }
   });
+  updateActiveMenuItem(category);
+
+  const menuItems = document.querySelectorAll(".gifts_link_list li a");
+
+  menuItems.forEach((item) => {
+    item.classList.remove("active");
+  });
+  const activeItem = document.querySelector(`#filter-${category}`);
+  if (activeItem) {
+    activeItem.classList.add("active");
+  }
 }

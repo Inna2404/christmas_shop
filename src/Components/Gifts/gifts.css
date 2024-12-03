@@ -109,21 +109,25 @@
   align-items: center;
 }
 .gifts_link_list li {
-  line-height: 12px;
-  letter-spacing: 3px;
-  font-size: 12px;
-  padding: 15px;
   list-style-type: none;
   cursor: pointer;
   user-select: none;
 }
+.gifts_link_list li a {
+  line-height: 12px;
+  letter-spacing: 3px;
+  font-size: 12px;
+  padding: 15px;
+}
 
-.gifts_link_list li:hover {
+.gifts_link_list li a:hover {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 12px;
 }
-.gifts_link_list li.active {
-  background-color: rgba(0, 255, 0, 0.3);
+.gifts_link_list li a.active {
+  background-color: rgba(255, 255, 255, 0.2);
+
+  /* background-color: rgba(0, 255, 0, 0.3); */
   border-radius: 12px;
 }
 

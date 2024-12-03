@@ -43,6 +43,12 @@ body.no-scroll {
   list-style-type: none;
   display: flex;
 }
+
+.burger_menu__list li:focus {
+  color: #ff4646;
+  background-color: #ff46461a;
+  border-radius: 20px;
+}
 .burger_menu__list a {
   padding: 10px 20px;
   text-decoration: none;
@@ -56,6 +62,12 @@ body.no-scroll {
 .burger_menu__list li a:hover {
   color: #ff4646;
   background-color: #ff46461a;
+  border-radius: 20px;
+}
+.burger_menu__list li a.active {
+  background-color: #ff46461a;
+
+  color: #ff4646;
   border-radius: 20px;
 }
 
