@@ -10,22 +10,22 @@ document.getElementById("forest").innerHTML = `
     <p>The New Year is Coming Soon...</p>
     <div class="timer">
       <div class="timer_block">
-        <h4>47</h4>
+        <h4 id="days">47</h4>
         <p>days</p>
       </div>
       <span class="timer_span"></span>
       <div class="timer_block">
-        <h4>5</h4>
+        <h4 id = "hours">5</h4>
         <p>hours</p>
       </div>
       <span class="timer_span"></span>
       <div class="timer_block">
-        <h4>34</h4>
+        <h4 id="minets">34</h4>
         <p>minutes</p>
       </div>
       <span class="timer_span"></span>
       <div class="timer_block">
-        <h4>12</h4>
+        <h4 id="seconds">12</h4>
         <p>seconds</p>
       </div>
     </div>
@@ -33,3 +33,30 @@ document.getElementById("forest").innerHTML = `
   
 </section>
 `;
+const targetDate = new Date("December 31, 2024 23:59:59").getTime();
+
+const interval = setInterval(function () {
+  const now = new Date().getTime();
+  const distance = targetDate - now;
+
+  const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  const hours = Math.floor(
+    (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+  );
+  const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  document.getElementById("days").innerHTML = days;
+  document.getElementById("hours").innerHTML = hours;
+  document.getElementById("minets").innerHTML = minutes;
+  document.getElementById("seconds").innerHTML = seconds;
+
+  if (distance < 0) {
+    clearInterval(interval);
+    document.getElementById("days").innerHTML = "0";
+    document.getElementById("hours").innerHTML = "0";
+    document.getElementById("minets").innerHTML = "0";
+    document.getElementById("seconds").innerHTML = "0";
+    alert("Time`s up!");
+  }
+}, 1000);
