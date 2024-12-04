@@ -254,14 +254,24 @@ const gifts = [
 ];
 
 const giftContainer = document.querySelector(".gift_block_wrap");
-const fragment = document.createDocumentFragment();
 
-gifts.forEach((gift) => {
-  const giftBlock = document.createElement("a");
-  giftBlock.className = "gift_bock";
-  giftBlock.setAttribute("onclick", `openModal(event,${gift.id}`);
+function getRandomGift(gifts, count) {
+  const randomSection = [...gifts].sort(() => Math.random() - 0.5);
+  return randomSection.slice(0, count);
+}
 
-  giftBlock.innerHTML = `
+const isHomePage = window.location.pathname.includes("/index.html");
+
+const displayGifts = isHomePage ? getRandomGift(gifts, 4) : gifts;
+
+// gifts.forEach((gift) => {
+//   const giftBlock = document.createElement("a");
+//   giftBlock.className = "gift_bock";
+//   giftBlock.setAttribute("onclick", `openModal(event,${gift.id}`);
+
+giftContainer.innerHTML = displayGifts
+  .map(
+    (gift) => `
      <a class="gift_bock" onclick="openModal(event,${gift.id})">
                 <img src="${gift.img}" alt="${gift.alt}" />
                 <div class="gift_bock_title">
@@ -269,7 +279,6 @@ gifts.forEach((gift) => {
                   <h3>${gift.title}r</h3>
                 </div>
               </a> 
-  `;
-  fragment.appendChild(giftBlock);
-});
-giftContainer.appendChild(fragment);
+  `
+  )
+  .join("");
