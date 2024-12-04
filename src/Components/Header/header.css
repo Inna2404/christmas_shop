@@ -49,6 +49,7 @@ body.no-scroll {
   background-color: #ff46461a;
   border-radius: 20px;
 }
+
 .burger_menu__list a {
   padding: 10px 20px;
   text-decoration: none;
@@ -134,8 +135,8 @@ body.no-scroll {
     display: flex;
     align-items: center;
     justify-content: center;
-    transform: translateY(-100%);
-    transition: transform 0.3s ease;
+    transform: translateX(100%);
+    transition: transform 0.9s ease;
     z-index: 8;
     overflow: hidden;
   }
