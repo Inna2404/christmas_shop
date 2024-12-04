@@ -584,1343 +584,1343 @@ const giftData = [
         ]
       }
     ]
+  },
+  {
+    id: 12,
+    image: "./img/gift_ball_4.png",
+    title: "Spontaneous Coding Philosopher",
+    description:
+      "Laughs at code errors like they’re jokes instead of getting angry.",
+    category: "For harmony",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      }
+    ]
+  },
+
+  {
+    id: 13,
+    image: "./img/gift_ball_1.png",
+    title: "Console.log Guru",
+    description: "Uses console.log like a crystal ball to find any issue.",
+    category: "For work",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 14,
+    image: "./img/gift_ball_2.png",
+    title: "Step Master",
+    description: "Gets 10,000 steps a day even while sitting at the computer.",
+    category: "For health",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 15,
+    image: "./img/gift_ball_3.png",
+    title: "Bug Magnet",
+    description: "Uses console.log like a crystal ball to find any issue.",
+    category: "For work",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 16,
+    image: "./img/gift_ball_3.png",
+    title: "Shortcut Cheater",
+    description: "Uses console.log like a crystal ball to find any issue.",
+    category: "For work",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 17,
+    image: "./img/gift_ball_2.png",
+    title: "Posture Levitation",
+    description: "Gets 10,000 steps a day even while sitting at the computer.",
+    category: "For health",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 18,
+    image: "./img/gift_ball_4.png",
+    title: "Bug Acceptance Guru",
+    description:
+      "Laughs at code errors like they’re jokes instead of getting angry.",
+    category: "For harmony",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      }
+    ]
+  },
+  {
+    id: 19,
+    image: "./img/gift_ball_2.png",
+    title: "Snack Resister",
+    description: "Gets 10,000 steps a day even while sitting at the computer.",
+    category: "For health",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 20,
+    image: "./img/gift_ball_4.png",
+    title: "Error Laugher",
+    description:
+      "Laughs at code errors like they’re jokes instead of getting angry.",
+    category: "For harmony",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      }
+    ]
+  },
+  {
+    id: 21,
+    image: "./img/gift_ball_2.png",
+    title: "Hydration Bot",
+    description: "Gets 10,000 steps a day even while sitting at the computer.",
+    category: "For health",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 22,
+    image: "./img/gift_ball_1.png",
+    title: "Merge Master",
+    description: "Uses console.log like a crystal ball to find any issue.",
+    category: "For work",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 23,
+    image: "./img/gift_ball_4.png",
+    title: "Joy Charger",
+    description:
+      "Laughs at code errors like they’re jokes instead of getting angry.",
+    category: "For harmony",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      }
+    ]
+  },
+  {
+    id: 24,
+    image: "./img/gift_ball_4.png",
+    title: "Spontaneous Coding Philosopher",
+    description:
+      "Laughs at code errors like they’re jokes instead of getting angry.",
+    category: "For harmony",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      }
+    ]
+  },
+
+  {
+    id: 25,
+    image: "./img/gift_ball_1.png",
+    title: "Console.log Guru",
+    description: "Uses console.log like a crystal ball to find any issue.",
+    category: "For work",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 26,
+    image: "./img/gift_ball_2.png",
+    title: "Step Master",
+    description: "Gets 10,000 steps a day even while sitting at the computer.",
+    category: "For health",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 27,
+    image: "./img/gift_ball_3.png",
+    title: "Bug Magnet",
+    description: "Uses console.log like a crystal ball to find any issue.",
+    category: "For work",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 28,
+    image: "./img/gift_ball_3.png",
+    title: "Shortcut Cheater",
+    description: "Uses console.log like a crystal ball to find any issue.",
+    category: "For work",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 29,
+    image: "./img/gift_ball_2.png",
+    title: "Posture Levitation",
+    description: "Gets 10,000 steps a day even while sitting at the computer.",
+    category: "For health",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 30,
+    image: "./img/gift_ball_4.png",
+    title: "Bug Acceptance Guru",
+    description:
+      "Laughs at code errors like they’re jokes instead of getting angry.",
+    category: "For harmony",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      }
+    ]
+  },
+  {
+    id: 31,
+    image: "./img/gift_ball_2.png",
+    title: "Snack Resister",
+    description: "Gets 10,000 steps a day even while sitting at the computer.",
+    category: "For health",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 32,
+    image: "./img/gift_ball_4.png",
+    title: "Error Laugher",
+    description:
+      "Laughs at code errors like they’re jokes instead of getting angry.",
+    category: "For harmony",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      }
+    ]
+  },
+  {
+    id: 33,
+    image: "./img/gift_ball_2.png",
+    title: "Hydration Bot",
+    description: "Gets 10,000 steps a day even while sitting at the computer.",
+    category: "For health",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 34,
+    image: "./img/gift_ball_1.png",
+    title: "Merge Master",
+    description: "Uses console.log like a crystal ball to find any issue.",
+    category: "For work",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+400",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png"
+        ]
+      }
+    ]
+  },
+  {
+    id: 35,
+    image: "./img/gift_ball_4.png",
+    title: "Joy Charger",
+    description:
+      "Laughs at code errors like they’re jokes instead of getting angry.",
+    category: "For harmony",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      }
+    ]
+  },
+  {
+    id: 36,
+    image: "./img/gift_ball_4.png",
+    title: "Spontaneous Coding Philosopher",
+    description:
+      "Laughs at code errors like they’re jokes instead of getting angry.",
+    category: "For harmony",
+    superpowers: [
+      {
+        name: "Live",
+        power: "+300",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Create",
+        power: "+200",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/image.png",
+          "./img/image.png",
+          "./img/image.png"
+        ]
+      },
+      {
+        name: "Love",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      },
+      {
+        name: "Dream",
+        power: "+500",
+        images: [
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg",
+          "./img/snowflake.svg"
+        ]
+      }
+    ]
   }
-  // {
-  //   id: 12,
-  //   image: "./img/gift_ball_4.png",
-  //   title: "Spontaneous Coding Philosopher",
-  //   description:
-  //     "Laughs at code errors like they’re jokes instead of getting angry.",
-  //   category: "For harmony",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     }
-  //   ]
-  // },
-
-  // {
-  //   id: 13,
-  //   image: "./img/gift_ball_1.png",
-  //   title: "Console.log Guru",
-  //   description: "Uses console.log like a crystal ball to find any issue.",
-  //   category: "For work",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 14,
-  //   image: "./img/gift_ball_2.png",
-  //   title: "Step Master",
-  //   description: "Gets 10,000 steps a day even while sitting at the computer.",
-  //   category: "For health",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 15,
-  //   image: "./img/gift_ball_3.png",
-  //   title: "Bug Magnet",
-  //   description: "Uses console.log like a crystal ball to find any issue.",
-  //   category: "For work",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 16,
-  //   image: "./img/gift_ball_3.png",
-  //   title: "Shortcut Cheater",
-  //   description: "Uses console.log like a crystal ball to find any issue.",
-  //   category: "For work",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 17,
-  //   image: "./img/gift_ball_2.png",
-  //   title: "Posture Levitation",
-  //   description: "Gets 10,000 steps a day even while sitting at the computer.",
-  //   category: "For health",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 18,
-  //   image: "./img/gift_ball_4.png",
-  //   title: "Bug Acceptance Guru",
-  //   description:
-  //     "Laughs at code errors like they’re jokes instead of getting angry.",
-  //   category: "For harmony",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 19,
-  //   image: "./img/gift_ball_2.png",
-  //   title: "Snack Resister",
-  //   description: "Gets 10,000 steps a day even while sitting at the computer.",
-  //   category: "For health",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 20,
-  //   image: "./img/gift_ball_4.png",
-  //   title: "Error Laugher",
-  //   description:
-  //     "Laughs at code errors like they’re jokes instead of getting angry.",
-  //   category: "For harmony",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 21,
-  //   image: "./img/gift_ball_2.png",
-  //   title: "Hydration Bot",
-  //   description: "Gets 10,000 steps a day even while sitting at the computer.",
-  //   category: "For health",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 22,
-  //   image: "./img/gift_ball_1.png",
-  //   title: "Merge Master",
-  //   description: "Uses console.log like a crystal ball to find any issue.",
-  //   category: "For work",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 23,
-  //   image: "./img/gift_ball_4.png",
-  //   title: "Joy Charger",
-  //   description:
-  //     "Laughs at code errors like they’re jokes instead of getting angry.",
-  //   category: "For harmony",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 24,
-  //   image: "./img/gift_ball_4.png",
-  //   title: "Spontaneous Coding Philosopher",
-  //   description:
-  //     "Laughs at code errors like they’re jokes instead of getting angry.",
-  //   category: "For harmony",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     }
-  //   ]
-  // },
-
-  // {
-  //   id: 25,
-  //   image: "./img/gift_ball_1.png",
-  //   title: "Console.log Guru",
-  //   description: "Uses console.log like a crystal ball to find any issue.",
-  //   category: "For work",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 26,
-  //   image: "./img/gift_ball_2.png",
-  //   title: "Step Master",
-  //   description: "Gets 10,000 steps a day even while sitting at the computer.",
-  //   category: "For health",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 27,
-  //   image: "./img/gift_ball_3.png",
-  //   title: "Bug Magnet",
-  //   description: "Uses console.log like a crystal ball to find any issue.",
-  //   category: "For work",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 28,
-  //   image: "./img/gift_ball_3.png",
-  //   title: "Shortcut Cheater",
-  //   description: "Uses console.log like a crystal ball to find any issue.",
-  //   category: "For work",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 29,
-  //   image: "./img/gift_ball_2.png",
-  //   title: "Posture Levitation",
-  //   description: "Gets 10,000 steps a day even while sitting at the computer.",
-  //   category: "For health",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 30,
-  //   image: "./img/gift_ball_4.png",
-  //   title: "Bug Acceptance Guru",
-  //   description:
-  //     "Laughs at code errors like they’re jokes instead of getting angry.",
-  //   category: "For harmony",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 31,
-  //   image: "./img/gift_ball_2.png",
-  //   title: "Snack Resister",
-  //   description: "Gets 10,000 steps a day even while sitting at the computer.",
-  //   category: "For health",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 32,
-  //   image: "./img/gift_ball_4.png",
-  //   title: "Error Laugher",
-  //   description:
-  //     "Laughs at code errors like they’re jokes instead of getting angry.",
-  //   category: "For harmony",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 33,
-  //   image: "./img/gift_ball_2.png",
-  //   title: "Hydration Bot",
-  //   description: "Gets 10,000 steps a day even while sitting at the computer.",
-  //   category: "For health",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 34,
-  //   image: "./img/gift_ball_1.png",
-  //   title: "Merge Master",
-  //   description: "Uses console.log like a crystal ball to find any issue.",
-  //   category: "For work",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+400",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 35,
-  //   image: "./img/gift_ball_4.png",
-  //   title: "Joy Charger",
-  //   description:
-  //     "Laughs at code errors like they’re jokes instead of getting angry.",
-  //   category: "For harmony",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     }
-  //   ]
-  // },
-  // {
-  //   id: 36,
-  //   image: "./img/gift_ball_4.png",
-  //   title: "Spontaneous Coding Philosopher",
-  //   description:
-  //     "Laughs at code errors like they’re jokes instead of getting angry.",
-  //   category: "For harmony",
-  //   superpowers: [
-  //     {
-  //       name: "Live",
-  //       power: "+300",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Create",
-  //       power: "+200",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/image.png",
-  //         "./img/image.png",
-  //         "./img/image.png"
-  //       ]
-  //     },
-  //     {
-  //       name: "Love",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     },
-  //     {
-  //       name: "Dream",
-  //       power: "+500",
-  //       images: [
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg",
-  //         "./img/snowflake.svg"
-  //       ]
-  //     }
-  //   ]
-  // }
 ];
 
 function openModal(event, giftiId) {
