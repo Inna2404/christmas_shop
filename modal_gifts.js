@@ -1978,3 +1978,11 @@ function closeModal() {
   const modal = document.getElementById("giftModal");
   modal.style.display = "none";
 }
+
+const modal = document.getElementById("giftModal");
+
+modal.addEventListener("click", function (event) {
+  if (event.target === modal) {
+    closeModal();
+  }
+});
