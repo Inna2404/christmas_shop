@@ -1,45 +1,275 @@
-document.addEventListener("DOMContentLoaded", function () {
-  document.getElementById("gifts").innerHTML = `
-<section id="gifts" class="gift_wrap">
-          <div class="gift_bock_text">
-            <p>Best Gifts</p>
-            <h2>especially for you</h2>
-          </div>
+const gifts = [
+  {
+    id: 1,
+    img: "./img/gift_ball_1.png",
+    alt: "gift_ball_work",
+    category: "For work",
+    title: "Console.log Guru"
+  },
+  {
+    id: 2,
+    img: "./img/gift_ball_2.png",
+    alt: "gift_ball_health",
+    category: "For health",
+    title: "Step Master"
+  },
+  {
+    id: 3,
+    img: "./img/gift_ball_3.png",
+    alt: "gift_ball_work",
+    category: "For work",
+    title: "Bug Magnet"
+  },
+  {
+    id: 4,
+    img: "./img/gift_ball_3.png",
+    alt: "gift_ball_health",
+    category: "For work",
+    title: "Shortcut Cheater"
+  },
+  {
+    id: 5,
+    img: "./img/gift_ball_2.png",
+    alt: "gift_ball_health",
+    category: "For health",
+    title: "Posture Levitation"
+  },
+  {
+    id: 6,
+    img: "./img/gift_ball_4.png",
+    alt: "gift_ball_health",
+    category: "For harmony",
+    title: "Bug Acceptance Guru"
+  },
+  {
+    id: 7,
+    img: "./img/gift_ball_2.png",
+    alt: "gift_ball_health",
+    category: "For health",
+    title: "Snack Resister"
+  },
+  {
+    id: 8,
+    img: "./img/gift_ball_4.png",
+    alt: "gift_ball_health",
+    category: "For harmony",
+    title: "Error Laugher"
+  },
+  {
+    id: 9,
+    img: "./img/gift_ball_2.png",
+    alt: "gift_ball_health",
+    category: "For health",
+    title: "Hydration Bot"
+  },
+  {
+    id: 10,
+    img: "./img/gift_ball_1.png",
+    alt: "gift_ball_health",
+    category: "For work",
+    title: "Merge Master"
+  },
+  {
+    id: 11,
+    img: "./img/gift_ball_4.png",
+    alt: "gift_ball_health",
+    category: "For harmony",
+    title: "Joy Charger"
+  },
+  {
+    id: 12,
+    img: "./img/gift_ball_4.png",
+    alt: "gift_ball_health",
+    category: "For harmony",
+    title: "Spontaneous Coding Philosopher"
+  },
+  {
+    id: 13,
+    img: "./img/gift_ball_1.png",
+    alt: "gift_ball_work",
+    category: "For work",
+    title: "Console.log Guru"
+  },
+  {
+    id: 14,
+    img: "./img/gift_ball_2.png",
+    alt: "gift_ball_health",
+    category: "For health",
+    title: "Step Master"
+  },
+  {
+    id: 15,
+    img: "./img/gift_ball_3.png",
+    alt: "gift_ball_work",
+    category: "For work",
+    title: "Bug Magnet"
+  },
+  {
+    id: 16,
+    img: "./img/gift_ball_3.png",
+    alt: "gift_ball_health",
+    category: "For work",
+    title: "Shortcut Cheater"
+  },
+  {
+    id: 17,
+    img: "./img/gift_ball_2.png",
+    alt: "gift_ball_health",
+    category: "For health",
+    title: "Posture Levitation"
+  },
+  {
+    id: 18,
+    img: "./img/gift_ball_4.png",
+    alt: "gift_ball_health",
+    category: "For harmony",
+    title: "Bug Acceptance Guru"
+  },
+  {
+    id: 19,
+    img: "./img/gift_ball_2.png",
+    alt: "gift_ball_health",
+    category: "For health",
+    title: "Snack Resister"
+  },
+  {
+    id: 20,
+    img: "./img/gift_ball_4.png",
+    alt: "gift_ball_health",
+    category: "For harmony",
+    title: "Error Laugher"
+  },
+  {
+    id: 21,
+    img: "./img/gift_ball_2.png",
+    alt: "gift_ball_health",
+    category: "For health",
+    title: "Hydration Bot"
+  },
+  {
+    id: 22,
+    img: "./img/gift_ball_1.png",
+    alt: "gift_ball_health",
+    category: "For work",
+    title: "Merge Master"
+  },
+  {
+    id: 23,
+    img: "./img/gift_ball_4.png",
+    alt: "gift_ball_health",
+    category: "For harmony",
+    title: "Joy Charger"
+  },
+  {
+    id: 24,
+    img: "./img/gift_ball_4.png",
+    alt: "gift_ball_health",
+    category: "For harmony",
+    title: "Spontaneous Coding Philosopher"
+  },
+  {
+    id: 25,
+    img: "./img/gift_ball_1.png",
+    alt: "gift_ball_work",
+    category: "For work",
+    title: "Console.log Guru"
+  },
+  {
+    id: 26,
+    img: "./img/gift_ball_2.png",
+    alt: "gift_ball_health",
+    category: "For health",
+    title: "Step Master"
+  },
+  {
+    id: 27,
+    img: "./img/gift_ball_3.png",
+    alt: "gift_ball_work",
+    category: "For work",
+    title: "Bug Magnet"
+  },
+  {
+    id: 28,
+    img: "./img/gift_ball_3.png",
+    alt: "gift_ball_health",
+    category: "For work",
+    title: "Shortcut Cheater"
+  },
+  {
+    id: 29,
+    img: "./img/gift_ball_2.png",
+    alt: "gift_ball_health",
+    category: "For health",
+    title: "Posture Levitation"
+  },
+  {
+    id: 30,
+    img: "./img/gift_ball_4.png",
+    alt: "gift_ball_health",
+    category: "For harmony",
+    title: "Bug Acceptance Guru"
+  },
+  {
+    id: 31,
+    img: "./img/gift_ball_2.png",
+    alt: "gift_ball_health",
+    category: "For health",
+    title: "Snack Resister"
+  },
+  {
+    id: 32,
+    img: "./img/gift_ball_4.png",
+    alt: "gift_ball_health",
+    category: "For harmony",
+    title: "Error Laugher"
+  },
+  {
+    id: 33,
+    img: "./img/gift_ball_2.png",
+    alt: "gift_ball_health",
+    category: "For health",
+    title: "Hydration Bot"
+  },
+  {
+    id: 34,
+    img: "./img/gift_ball_1.png",
+    alt: "gift_ball_health",
+    category: "For work",
+    title: "Merge Master"
+  },
+  {
+    id: 35,
+    img: "./img/gift_ball_4.png",
+    alt: "gift_ball_health",
+    category: "For harmony",
+    title: "Joy Charger"
+  },
+  {
+    id: 36,
+    img: "./img/gift_ball_4.png",
+    alt: "gift_ball_health",
+    category: "For harmony",
+    title: "Spontaneous Coding Philosopher"
+  }
+];
 
-          <div class="gift_block_wrap">
-            <a class="gift_bock" onclick="openModal(event,1)">
-              <img src="img/gift_ball_1.png"  alt="gift_ball_work" />
-              <div class="gift_bock_title">
-                <h5 class="for_work">For work</h5>
-                <h3>Console.log Guru</h3>
-              </div>
-            </a>
-        
+const giftContainer = document.querySelector(".gift_block_wrap");
+const fragment = document.createDocumentFragment();
 
-            <a class="gift_bock" onclick="openModal(event,2)" >
-              <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
-              <div class="gift_bock_title">
-                <h5 class="for_health">For health</h5>
-                <h3>Hydration Bot</h3>
-              </div>
-            </a>
+gifts.forEach((gift) => {
+  const giftBlock = document.createElement("a");
+  giftBlock.className = "gift_bock";
+  giftBlock.setAttribute("onclick", `openModal(event,${gift.id}`);
 
-            <a class="gift_bock" onclick="openModal(event,1)">
-              <img src="img/gift_ball_3.png" alt="gift_ball_work" />
-              <div class="gift_bock_title">
-                <h5 class="for_work">For work</h5>
-                <h3>Merge Master</h3>
-              </div>
-            </a>
-
-            <a class="gift_bock" onclick="openModal(event,4)">
-              <img src="img/gift_ball_4.png"  alt="gift_ball_harmony" />
-              <div class="gift_bock_title">
-                <h5 class="for_harmony">For harmony</h5>
-                <h3>Spontaneous Coding Philosopher</h3>
-              </div>
-            </a>
-          </div>
-        </section>
-`;
+  giftBlock.innerHTML = `
+     <a class="gift_bock" onclick="openModal(event,${gift.id})">
+                <img src="${gift.img}" alt="${gift.alt}" />
+                <div class="gift_bock_title">
+                  <h5 class="${gift.category.toLowerCase().replace(" ", "_")}">${gift.category}</h5>
+                  <h3>${gift.title}r</h3>
+                </div>
+              </a> 
+  `;
+  fragment.appendChild(giftBlock);
 });
+giftContainer.appendChild(fragment);
