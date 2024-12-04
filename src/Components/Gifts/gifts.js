@@ -264,11 +264,6 @@ const isHomePage = window.location.pathname.includes("/index.html");
 
 const displayGifts = isHomePage ? getRandomGift(gifts, 4) : gifts;
 
-// gifts.forEach((gift) => {
-//   const giftBlock = document.createElement("a");
-//   giftBlock.className = "gift_bock";
-//   giftBlock.setAttribute("onclick", `openModal(event,${gift.id}`);
-
 giftContainer.innerHTML = displayGifts
   .map(
     (gift) => `

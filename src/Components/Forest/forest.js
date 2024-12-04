@@ -33,7 +33,8 @@ document.getElementById("forest").innerHTML = `
   
 </section>
 `;
-const targetDate = new Date("December 31, 2024 23:59:59").getTime();
+
+const targetDate = Date.UTC(2024, 11, 31, 23, 59, 59);
 
 const interval = setInterval(function () {
   const now = new Date().getTime();
