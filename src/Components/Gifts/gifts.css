@@ -288,3 +288,26 @@
     background-color: inherit;
   }
 }
+.scroll_top_btn {
+  border-radius: 50px;
+  width: 56px;
+  height: 56px;
+  background-color: #fff;
+  border: 1px solid #ff4646;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  font-size: 20px;
+  display: none;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+@media (max-width: 768px) {
+  .scroll_top_btn.show {
+    display: flex;
+  }
+}

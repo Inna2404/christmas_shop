@@ -50,109 +50,45 @@
             >
           </li>
         </ul>
-        <div class="gift_block_wrap">
-          <!-- <a class="gift_bock" onclick="openModal(event,1)">
-            <img src="./img/gift_ball_1.png" alt="gift_ball_work" />
-            <div class="gift_bock_title">
-              <h5 class="for_work">For work</h5>
-              <h3>Console.log Guru</h3>
-            </div>
-          </a>
-
-          <a class="gift_bock" onclick="openModal(event,2)">
-            <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
-            <div class="gift_bock_title">
-              <h5 class="for_health">For health</h5>
-              <h3>Step Master</h3>
-            </div>
-          </a>
-
-          <a class="gift_bock" onclick="openModal(event,3)">
-            <img src="./img/gift_ball_3.png " alt="gift_ball_work" />
-            <div class="gift_bock_title">
-              <h5 class="for_work">For work</h5>
-              <h3>Bug Magnet</h3>
-            </div>
-          </a>
-
-          <a class="gift_bock" onclick="openModal(event,4)">
-            <img src="./img/gift_ball_3.png" alt="gift_ball_health" />
-            <div class="gift_bock_title">
-              <h5 class="for_work">For work</h5>
-              <h3>Shortcut Cheater</h3>
-            </div>
-          </a>
-
-          <a class="gift_bock" onclick="openModal(event,5)">
-            <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
-            <div class="gift_bock_title">
-              <h5 class="for_health">For health</h5>
-              <h3>Posture Levitation</h3>
-            </div>
-          </a>
-
-          <a class="gift_bock" onclick="openModal(event,6)">
-            <img src="./img/gift_ball_4.png" alt="gift_ball_health" />
-            <div class="gift_bock_title">
-              <h5 class="for_harmony">For harmony</h5>
-              <h3>Bug Acceptance Guru</h3>
-            </div>
-          </a>
-
-          <a class="gift_bock" onclick="openModal(event,7)">
-            <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
-            <div class="gift_bock_title">
-              <h5 class="for_health">For health</h5>
-              <h3>Snack Resister</h3>
-            </div>
-          </a>
-
-          <a class="gift_bock" onclick="openModal(event,8)">
-            <img src="./img/gift_ball_4.png" alt="gift_ball_health" />
-            <div class="gift_bock_title">
-              <h5 class="for_harmony">For harmony</h5>
-              <h3>Error Laugher</h3>
-            </div>
-          </a>
-
-          <a class="gift_bock" onclick="openModal(event,9)">
-            <img src="./img/gift_ball_2.png" alt="gift_ball_health" />
-            <div class="gift_bock_title">
-              <h5 class="for_health">For health</h5>
-              <h3>Hydration Bot</h3>
-            </div>
-          </a>
-
-          <a class="gift_bock" onclick="openModal(event,10)">
-            <img src="./img/gift_ball_1.png" alt="gift_ball_health" />
-            <div class="gift_bock_title">
-              <h5 class="for_work">For work</h5>
-              <h3>Merge Master</h3>
-            </div>
-          </a>
-
-          <a class="gift_bock" onclick="openModal(event,11)">
-            <img src="./img/gift_ball_4.png" alt="gift_ball_health" />
-            <div class="gift_bock_title">
-              <h5 class="for_harmony">For harmony</h5>
-              <h3>Joy Charger</h3>
-            </div>
-          </a>
-          <a class="gift_bock" onclick="openModal(event,12)">
-            <img src="./img/gift_ball_4.png" alt="gift_ball_health" />
-            <div class="gift_bock_title">
-              <h5 class="for_harmony">For harmony</h5>
-              <h3>Spontaneous Coding Philosopher</h3> -->
-          <!-- </div> -->
-          <!-- </a> -->
-
-          <!-- <div id="giftContainer"></div> -->
-        </div>
+        <div class="gift_block_wrap"></div>
       </div>
       <div id="footer"></div>
     </section>
 
-    <!-- <div id="giftModal"></div> -->
+    <button id="scrollTopBtn" class="scroll_top_btn">
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="arrow-up">
+          <path
+            id="Vector-arrow-up"
+            d="M12 5V19"
+            stroke="#FF4646"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+          <path
+            id="Vector_2-arrow-up"
+            d="M18 11L12 5"
+            stroke="#FF4646"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+          <path
+            id="Vector_3-arrow-up"
+            d="M6 11L12 5"
+            stroke="#FF4646"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          ></path>
+        </g>
+      </svg>
+    </button>
+
     <div id="giftModal" style="display: none" class="modal" aria-hidden="true">
       <div class="modal_content">
         <span class="close" onclick="closeModal()">&times;</span>
@@ -187,5 +123,6 @@
     <script src="./src/Components/Gifts/gifts.js"></script>
     <script src="filterGafts.js"></script>
     <script src="./modal_gifts.js"></script>
+    <script src="./src/Components/modal_window/scrollTop.js"></script>
   </body>
 </html>
