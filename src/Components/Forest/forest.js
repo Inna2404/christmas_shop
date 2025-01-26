@@ -34,7 +34,7 @@ document.getElementById("forest").innerHTML = `
 </section>
 `;
 
-const targetDate = Date.UTC(2024, 11, 31, 23, 59, 59);
+const targetDate = Date.UTC(2025, 11, 31, 23, 59, 59);
 
 const interval = setInterval(function () {
   const now = new Date().getTime();
@@ -58,6 +58,6 @@ const interval = setInterval(function () {
     document.getElementById("hours").innerHTML = "0";
     document.getElementById("minets").innerHTML = "0";
     document.getElementById("seconds").innerHTML = "0";
-    // alert("Time`s up!");
+    alert("Time`s up!");
   }
 }, 1000);
