@@ -58,6 +58,6 @@ const interval = setInterval(function () {
     document.getElementById("hours").innerHTML = "0";
     document.getElementById("minets").innerHTML = "0";
     document.getElementById("seconds").innerHTML = "0";
-    alert("Time`s up!");
+    // alert("Time`s up!");
   }
 }, 1000);
